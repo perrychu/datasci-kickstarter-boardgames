@@ -12,7 +12,7 @@ The project includes a data scraper, linear regression models with varying featu
 * Kickstarter_Scraper.ipynb - BeautifulSoup scraper for Kickstarter.com. Two stages: collect project URLs from the search page, then scrape data from each project URL.
   * kick_urls.txt - Output file of scraped URLs
   * kick_data.csv - Output file of scraped project data
-* Cleaning_EDA_Regression.ipynb - Data cleaning, exploratory analysis, and model + feature selection
+* Kickstarter_EDA_Regression.ipynb - Data cleaning, exploratory analysis, and model + feature selection
 * Kickstart_Board_Game_Pres.pdf - Project presentation slides
 * Kickstart_Board_Game_Writeup.pdf - Outline of project & process
 

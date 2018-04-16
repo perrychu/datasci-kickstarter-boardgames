@@ -2,11 +2,11 @@
 Regression analysis of what factors make a kickstarter boardgame project raise more money. 
 
 ## Summary
-This is my second project at Metis (a data sci bootcamp), focusing on regression. 
+This is my regression project for Metis (a data science bootcamp). 
 
-The goal is to predict how much money projects in the “Tabletop Games” category on Kickstarter will raise, and infer ways for a project creator to increase likelihood of success. 
+The goal is to predict total dollars raised for projects in the “Tabletop Games” category on Kickstarter. With a good model, we could help highlight projects for backers and help creators estimate the potential of a project. I also look at important features to infer ways for a project creator to increase likelihood of success. 
 
-The project includes a data scraper using BeautifulSoup, and linear regressions with varying features + cross validation. The key concepts I learned were bias-variance tradeoff and validation vs. testing.
+The project includes a data scraper using BeautifulSoup, and linear regression models cross validated on varying feature sets. The key concepts I learned were bias-variance tradeoff and validation vs. testing.
 
 ## Files
 #### Code

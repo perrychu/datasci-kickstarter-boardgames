@@ -24,7 +24,14 @@ Best model includes all features + 2nd degree interaction terms. Regularization 
 However, test r-square was negative! This was due to some outliers in the data which were assigned to the test set. Easily fixable, but I decided to leave them in as an illustrative example.
 
 Top features in a simple linear regression:
-* FAQ and Update activity (takeaway: post & interact often)
-* Funding goal (takeaway: set a more ambitious target)
-* Min Reward Price (takeaway: limit freebies)
-* "Base" Reward Price (takeaway: set a reasonable per-unit cost - don't discount heavily)
+
+Importance* |Feature | Coefficient | Takeaway  
+:-------:| ----- | -----------:| --------  
+1 | Update activity | $2296.90 | Give frequent updates
+2 | FAQ activity | $5454.67 |Interact with backers
+3 | Funding goal | $0.80 | Set a more ambitious target  
+4 | Min Reward Price | $557.13 | Limit freebies  
+5 | % US Backers | -$54,594.52 | Market to US and non-US audiences
+6 | "Base" Reward Price | $200.61 | Set a reasonable per-unit cost - don't discount heavily  
+
+\*Ranked by absolute value of coefficients from regression on standardized features
